@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>URL Shortener Service</title>
+      <link rel="shortcut icon" href="/assets/fav.ico" type="image/x-icon"/>
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+      <link href="/public/style.css" rel="stylesheet" type="text/css">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+      <script src='app.js'></script>
+   </head>
+
+   <body>
+      <div class="container">
+            <h1 class="header">
+                API Basejump: Timestamp microservice
+            </h1>
+            <blockquote>
+                User stories:
+                <ul>1) I can pass a URL as a parameter and I will receive a shortened URL in the JSON response.</ul>
+                <ul>2) When I visit that shortened URL, it will redirect me to my original link.</ul>
+            </blockquote>
+            <h3>Example usage:</h3>
+            <code>https://url-shortener1.glitch.me/http://google.com</code><br>
+            <code>https://url-shortener1.glitch.me/##</code><br>
+            <h3>Example output:</h3>
+            <code>
+                { "original_url":"http://foo.com:80", "short_url":"https://url-shortener1.glitch.me/8170" }
+            </code>
+              
+              <h5>
+                <br><br><br>By Tony Molumby
+              </h5>
+        </div>
+   </body>
+
+</html>
